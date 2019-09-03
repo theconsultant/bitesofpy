@@ -19,7 +19,7 @@ def print_game_stats(games_won=games_won):
     """
 
 
-    for name, score in games_won.items():
-        game = 'games' if score != 1 else 'game'
-        print(name, score, game)
-        print(f'{name} has won {score} {game}')
+for name, score in games_won.items():
+    game = 'games' if score != 1 else 'game'
+    # print(name, score, game)
+    print(f'{name} has won {score} {game}')
