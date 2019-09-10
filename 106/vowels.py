@@ -38,4 +38,12 @@ def strip_vowels(text: str) -> (str, int):
        The str/int types in the function defintion above are part
        of Python's new type hinting:
        https://docs.python.org/3/library/typing.html"""
-    pass
+    
+    start_stars = text.count('*')
+    print(start_stars)
+    for letter in 'aeiouAEIOU':
+        text = text.replace(letter, '*')
+    end_stars = text.count('*')
+    number_of_vowels_found = end_stars - start_stars
+    print(text, number_of_vowels_found)
+    return(text, number_of_vowels_found)
