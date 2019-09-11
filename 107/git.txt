@@ -23,3 +23,10 @@ git push
 
 # Keep calm and code in Python!
 
+# CRLF errors?
+#from the bitesofpy folder do
+
+git config core.autocrlf true
+git config core.safecrlf false
+
+#that will tell git to deal with line feeds correctly.
