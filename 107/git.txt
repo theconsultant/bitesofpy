@@ -1,19 +1,25 @@
 ## Code submission instructions:
 
 git clone https://github.com/theconsultant/bitesofpy
-cd bitesofpy
-mkdir 107
-cd 107
 
-# move the exercise files from the downloaded zipfile into this directory
+# move the exercise zipfile into the bitesofpy directory
+# unzip it and rename it to 107
+
+cd bitesofpy/107/
+
 # code your solution, make sure pytest is happy :)
+
+pytest -v
+
 # if so push your code to Github:
+
 git add .
 git commit -m "submission Bite 107 @ codechalleng.es"
 git push
 
 # in order to submit your code head over to https://codechalleng.es/bites/107
-# and hit "Save and Run Tests" using the "Pull your code from the GH repo" checkbox
-# (make sure we asserted the path of your code file!)
+# and hit "Save and Run Tests" using the "Pull your code from the GH repo"
+# checkbox (make sure we asserted the path of your code file!)
 
 # Keep calm and code in Python!
+
