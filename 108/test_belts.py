@@ -1,9 +1,7 @@
 from belts import BeltStats, ninja_belts, get_total_points
 
-
 def test_get_total_points_given_belts():
     assert get_total_points() == 2675
-
 
 def test_get_total_points_more_belts():
     more_belts = dict(brown=BeltStats(400, 2),
